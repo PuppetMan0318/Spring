@@ -1,7 +1,7 @@
 package com.lagou.edu.service.impl;
 
 import com.lagou.edu.annotation.Autowired;
-import com.lagou.edu.annotation.Component;
+import com.lagou.edu.annotation.Service;
 import com.lagou.edu.annotation.Transactional;
 import com.lagou.edu.dao.AccountDao;
 import com.lagou.edu.pojo.Account;
@@ -10,7 +10,7 @@ import com.lagou.edu.service.TransferService;
 /**
  * @author 应癫
  */
-@Component("transferService")
+@Service("transferService")
 @Transactional
 public class TransferServiceImpl implements TransferService {
 

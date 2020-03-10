@@ -1,7 +1,7 @@
 package com.lagou.edu.dao.impl;
 
 import com.lagou.edu.annotation.Autowired;
-import com.lagou.edu.annotation.Service;
+import com.lagou.edu.annotation.Component;
 import com.lagou.edu.dao.AccountDao;
 import com.lagou.edu.pojo.Account;
 import com.lagou.edu.utils.ConnectionUtils;
@@ -13,7 +13,7 @@ import java.sql.ResultSet;
 /**
  * @author 应癫
  */
-@Service("accountDao")
+@Component("accountDao")
 public class JdbcAccountDaoImpl implements AccountDao {
 
 	@Autowired("connectionUtils")
